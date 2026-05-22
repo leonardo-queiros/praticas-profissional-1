@@ -1,0 +1,18 @@
+.container-fluid{
+    height: 20vh;
+    background-color: aqua;
+}
+
+.cor-navi{
+    background-color: blueviolet;
+}
+
+.navbar{
+    height: 20vh;
+}
+
+.nav-link, .navbar-brand{
+    font-family: cursive;
+    font-size: larger;
+    color: red;
+}
