@@ -18,33 +18,6 @@ Este é um portfólio de página única (*Single Page Application* simplificada)
 
 ---
 
-## 💼 Meu Perfil Profissional
-
-Atualmente atuo como **Assessor de TI III (Desenvolvedor Mobile Front-End & Back-End)** no **Banco do Brasil**, alocado estrategicamente na divisão de soluções de assessoria de investimentos. 
-
-### 🛠️ Principais Competências Aplicadas
-* **Front-End / Mobile:** React Native, TypeScript, JavaScript, HTML5, CSS3, Bootstrap 5.
-* **Back-End / Cloud:** Java, Integração de APIs RESTful.
-* **Metodologias & Negócios:** Metodologia Scrum, Ambientes Ágeis, Histórias de Usuário, Business Map.
-
----
-
-## 🏆 Projetos e Entregas em Destaque
-
-O portfólio destaca minhas principais participações em soluções de grande impacto de mercado no ecossistema do Banco do Brasil:
-
-1.  **Cofrinho BB (Desenvolvimento Front-End)**
-    * Manutenção evolutiva e corretiva do App BB focado no público jovem.
-    * Coordenação direta com o time de UX e vinculação às chamadas de microsserviços back-end.
-    * **Resultado de Impacto:** O produto alcançou o PL (Patrimônio Líquido) de **R$ 1 Bilhão** atrelado ao fundo *BB Reserva Cofrinho* no início de 2026.
-    * **Premiação:** Entrega campeã no **Prêmio BB 2026** (melhor entrega do ano de 2025).
-
-2.  **Pedido de Contribuição (Vaquinha Virtual)**
-    * Responsável pela análise técnica e entrega da solução atrelada ao Cofrinho BB.
-    * Permite a criação de links de cobrança e QR Codes via Pix onde o pagamento cai direto no Cofrinho, eliminando a fricção e sem transitar pelo extrato padrão da conta.
-
----
-
 ## 🌐 Como Publicar no GitHub Pages
 
 Como este repositório foi estruturado exclusivamente para funcionar como uma **GitHub Page**, siga os passos abaixo para colocá-lo no ar:
