@@ -1,57 +1,426 @@
 <!doctype html>
 <html lang="pt-BR">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leonardo Gomes de Queiros | Portfólio Profissional</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="estilo.css" rel="stylesheet" />
   </head>
-  <body>
-    <!-- Inicio da área do cabeçalho -->
-    <header class="container-fluid">
-<nav class="navbar navbar-expand-lg cor-navi">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Home</a>
-        </li>
-          <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Teste</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+  <body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="100">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">LEONARDO GOMES DE QUEIROS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#competencias">Competências</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projetos">Projetos & Experiência</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-      </form>
-    </div>
-  </div>
-</nav>
-    <!-- Fim da área do cabeçalho -->
-    </header>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="row align-items-stretch">
+          <div
+            class="col-lg-7 d-flex flex-column justify-content-center"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <span class="tag-sub">Desenvolvedor Mobile</span>
+            <h1 class="hero-title">
+              Construindo soluções tech com visão analítica.
+            </h1>
+            <p class="hero-desc">
+              Em desenvolvimento como profissional de tecnologia, conectando
+              <strong>Java, React Native, TypeScript</strong> para criar
+              soluções corporativas aplicadas, seguras e altamente evolutivas no
+              ecossistema financeiro.
+            </p>
+            <div class="row g-2 max-width-mobile">
+              <div class="col-auto">
+                <a href="#projetos" class="btn btn-custom-primary"
+                  >Ver projetos em destaque</a
+                >
+              </div>
+              <div class="col-auto">
+                <a
+                  href="https://github.com/leonardo-queiros"
+                  target="_blank"
+                  class="btn btn-custom-secondary"
+                  ><i class="bi bi-github me-2"></i>Ver perfil no GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-5"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <div class="info-card">
+              <div class="mb-3">
+                <span class="badge-evolution">
+                  <i class="bi bi-rocket-takeoff-fill"></i> Evolução Contínua
+                </span>
+              </div>
+              <h3 class="h5 fw-bold mb-3">Portfólio conectado à prática.</h3>
+              <p class="text-secondary small lh-base mb-4">
+                Este portfólio reúne soluções reais desenvolvidas no ambiente
+                corporativo e iniciativas focadas em
+                <strong>aprender fazendo</strong>, documentando resultados de
+                alto impacto financeiro e excelência técnica.
+              </p>
+              <hr style="border-color: var(--border-color); margin: 1.5rem 0" />
+              <p class="text-secondary small mb-2">
+                <strong>Foco de Atuação:</strong>
+              </p>
+              <p class="text-secondary small lh-sm mb-3">
+                Desenvolvimento Mobile, APIs RESTful, Sistemas Escaláveis,
+                Arquitetura de Nuvem e Métodos Ágeis corporativos.
+              </p>
+              <div
+                class="d-flex align-items-center gap-2 text-secondary small mt-4"
+              >
+                <i class="bi bi-geo-alt-fill text-danger"></i>
+                <strong>Atuação Híbrida • Banco do Brasil</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section-padding">
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <h2 class="section-title">Sobre Mim</h2>
+        <div class="row">
+          <div class="col-lg-9">
+            <p class="text-secondary mb-3 fs-6 lh-lg">
+              Sou o <strong>Leonardo Gomes de Queiros</strong>, profissional com
+              experience sólida em tecnologia e desenvolvimento de soluções
+              digitais. Atualmente atuo como
+              <strong>Assessor de TI III no Banco do Brasil</strong>, alocado
+              estrategicamente na área de investimentos.
+            </p>
+            <p class="text-secondary mb-3 fs-6 lh-lg">
+              No dia a dia, trabalho focado no desenvolvimento de sistemas
+              mobile robustos utilizando <strong>React Native</strong> no
+              front-end, integrado a ecossistemas escaláveis de back-end e cloud
+              usando a linguagem <strong>Java</strong>. Minha atuação é pautada
+              pelo uso de metodologias ágeis, entregando códigos seguros e de
+              alta performance.
+            </p>
+            <p class="text-secondary fs-6 lh-lg">
+              Possuo um histórico prévio de liderança em construção civil e
+              gestão de equipes, uma bagagem valiosa que me concedeu
+              versatilidade diferenciada, resiliência, rápida capacidade de
+              adaptação e uma forte visão de trabalho colaborativo focado em
+              resultados tangíveis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="competencias" class="section-padding">
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <h2 class="section-title">Tecnologias &amp; Competências</h2>
+        <p class="text-secondary mb-4 small">
+          Principais habilidades aplicadas no desenvolvimento diário de
+          arquiteturas mobile e corporativas.
+        </p>
+        <div class="d-flex flex-wrap mx-n1">
+          <span class="skill-badge" data-aos="zoom-in" data-aos-delay="100"
+            >React Native</span
+          >
+          <span class="skill-badge" data-aos="zoom-in" data-aos-delay="150"
+            >Java</span
+          >
+          <span class="skill-badge" data-aos="zoom-in" data-aos-delay="200"
+            >TypeScript</span
+          >
+          <span class="skill-badge" data-aos="zoom-in" data-aos-delay="250"
+            >JavaScript</span
+          >
+          <span class="skill-badge" data-aos="zoom-in" data-aos-delay="300"
+            >Ambiente Ágil</span
+          >
+          <span class="skill-badge" data-aos="zoom-in" data-aos-delay="350"
+            >Metodologia Scrum</span
+          >
+          <span class="skill-badge" data-aos="zoom-in" data-aos-delay="400"
+            >Lógica de Programação</span
+          >
+          <span class="skill-badge" data-aos="zoom-in" data-aos-delay="450"
+            >Business Map</span
+          >
+          <span class="skill-badge" data-aos="zoom-in" data-aos-delay="500"
+            >HTML &amp; CSS</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section-padding">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="800">
+          Entregas &amp; Experiência Corporativa
+        </h2>
+        <p
+          class="text-secondary mb-4 small"
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="100"
+        >
+          Apresentação simplificada das principais soluções e conquistas de
+          grande relevância no mercado.
+        </p>
+
+        <div class="row g-4">
+          <div
+            class="col-md-6"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <div class="portfolio-card">
+              <div class="card-meta">
+                Banco do Brasil • Solução Mobile Cofrinho BB
+              </div>
+              <h3 class="card-title">
+                Cofrinho BB — Desenvolvimento Front-End
+              </h3>
+              <p class="card-desc">
+                Atuação direta como desenvolvedor front-end na criação e
+                manutenção evolutiva do Cofrinho BB, funcionalidade desenhada
+                para incentivar o hábito de poupar e investir, especialmente
+                para o público jovem. Liderança na coordenação com o time de UX
+                e integração direta com serviços de back-end.
+              </p>
+              <div class="d-flex flex-wrap gap-2 mt-3">
+                <span
+                  class="badge bg-dark border border-secondary text-secondary small px-2 py-1"
+                  >React Native</span
+                >
+                <span
+                  class="badge bg-dark border border-secondary text-secondary small px-2 py-1"
+                  >TypeScript</span
+                >
+                <span
+                  class="badge bg-dark border border-secondary text-secondary small px-2 py-1"
+                  >UX Sync</span
+                >
+              </div>
+              <div class="d-block">
+                <span class="metric-badge success">
+                  <i class="bi bi-graph-up-arrow"></i> PL de R$ 1 Bilhão (Fundo
+                  BB Reserva Cofrinho)
+                </span>
+              </div>
+              <div class="d-block mt-1">
+                <span class="metric-badge">
+                  <i class="bi bi-trophy-fill"></i> Campeão Prêmio BB 2026
+                  (Melhor Entrega)
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            <div class="portfolio-card">
+              <div class="card-meta">
+                Banco do Brasil • Extensão Cofrinho BB
+              </div>
+              <h3 class="card-title">
+                Pedido de Contribuição — Vaquinha Virtual
+              </h3>
+              <p class="card-desc">
+                Responsável integral pela concepção técnica e entrega do módulo
+                de Pedido de Contribuição (vaquinha virtual) atrelado ao
+                Cofrinho BB. A solução permite que o usuário gere links
+                personalizados e QR Codes Pix. Os pagamentos são direcionados
+                diretamente para o fundo de investimento sem transitar pelo
+                extrato padrão, garantindo fricção zero.
+              </p>
+              <div class="d-flex flex-wrap gap-2 mt-3">
+                <span
+                  class="badge bg-dark border border-secondary text-secondary small px-2 py-1"
+                  >Java (Back-End)</span
+                >
+                <span
+                  class="badge bg-dark border border-secondary text-secondary small px-2 py-1"
+                  >Integração API</span
+                >
+                <span
+                  class="badge bg-dark border border-secondary text-secondary small px-2 py-1"
+                  >React Native</span
+                >
+              </div>
+              <div class="d-block">
+                <span class="metric-badge success">
+                  <i class="bi bi-lightning-charge-fill"></i> Fluxo com Fricção
+                  Zero via Pix
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
+            <div
+              class="portfolio-card"
+              style="background: rgba(15, 22, 38, 0.4)"
+            >
+              <div class="row align-items-center">
+                <div class="col-lg-8">
+                  <div class="card-meta">Posição Atual &amp; Histórico</div>
+                  <h4 class="fw-bold text-white mb-2">
+                    Assessor de TI III — Banco do Brasil
+                  </h4>
+                  <p class="card-desc mb-lg-0">
+                    Atuação híbrida desde março de 2025 (e anteriormente como
+                    Assessor Júnior desde setembro de 2024), atuando na
+                    manutenção evolutiva e corretiva do App do Banco do Brasil.
+                    Foco em soluções de assessoria de investimento com o uso
+                    diário de Scrum e alinhamento com histórias de usuário.
+                  </p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                  <div class="text-secondary small mb-1">
+                    <i class="bi bi-calendar3 me-2"></i>Setembro de 2024 -
+                    Presente
+                  </div>
+                  <div class="text-secondary small">
+                    <i class="bi bi-briefcase me-2"></i>Assessoria de
+                    Investimentos
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section-padding bg-black-gradient">
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <h2 class="section-title">Contato</h2>
+        <p class="text-secondary mb-5 small">
+          Aberto a conexões, mentorias, comunidades tech e oportunidades
+          estratégicas em tecnologia.
+        </p>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <a href="mailto:leo.lucas0123@gmail.com" class="contact-link">
+              <div class="contact-icon">
+                <i class="bi bi-envelope-fill"></i>
+              </div>
+              <div>
+                <span class="d-block text-white small fw-bold"
+                  >E-mail Principal</span
+                >
+                <span class="small">leo.lucas0123@gmail.com</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a
+              href="https://www.linkedin.com/in/leonardo-gomes-de-queiros-12455119b/"
+              target="_blank"
+              class="contact-link"
+            >
+              <div class="contact-icon"><i class="bi bi-linkedin"></i></div>
+              <div>
+                <span class="d-block text-white small fw-bold">LinkedIn</span>
+                <span class="small">/leonardo-gomes-de-queiros</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a
+              href="https://github.com/leonardo-queiros"
+              target="_blank"
+              class="contact-link"
+            >
+              <div class="contact-icon"><i class="bi bi-github"></i></div>
+              <div>
+                <span class="d-block text-white small fw-bold">GitHub</span>
+                <span class="small">github.com/leonardo-queiros</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="row mt-5 pt-4 border-top border-secondary opacity-50">
+          <div
+            class="col-sm-6 text-secondary small text-center text-sm-start mb-2 mb-sm-0"
+          >
+            &copy; 2026 Leonardo Gomes de Queiros. Todos os direitos reservados.
+          </div>
+          <div class="col-sm-6 text-secondary small text-center text-sm-end">
+            Construído com dados, intenção e código.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        mirror: false,
+      });
+    </script>
   </body>
 </html>
