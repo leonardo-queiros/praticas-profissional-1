@@ -28,7 +28,7 @@ Como este repositório foi estruturado exclusivamente para funcionar como uma **
 4.  Em **Build and deployment**, sob a opção *Source*, selecione **Deploy from a branch**.
 5.  Escolha a sua branch principal (ex: `main`) e a pasta raiz (`/(root)`).
 6.  Clique em **Save**.
-7.  Aguarde alguns minutos e o GitHub fornecerá a URL pública do seu portfólio (ex: `https://seu-usuario.github.io/nome-do-repositorio/`).
+7.  Aguarde alguns minutos e o GitHub fornecerá a URL pública do seu portfólio (ex: `https://leonardo-queiros.github.io/praticas-profissionais/`).
 
 ---
 
